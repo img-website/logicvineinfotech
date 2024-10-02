@@ -4860,6 +4860,10 @@ video {
     padding: 3rem;
   }
 
+  .sm\:p-8 {
+    padding: 2rem;
+  }
+
   .sm\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -5034,6 +5038,10 @@ video {
        object-fit: cover;
   }
 
+  .md\:p-5 {
+    padding: 1.25rem;
+  }
+
   .md\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
@@ -5042,6 +5050,10 @@ video {
   .md\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
+  }
+
+  .md\:pt-8 {
+    padding-top: 2rem;
   }
 
   .md\:text-2xl {
@@ -5345,5 +5357,130 @@ video {
     .dark\:lg\:hover\:\[paint-order\:markers\]:hover {
       paint-order: markers;
     }
+  }
+}
+
+.\[\&_table\]\:table-auto table {
+  table-layout: auto;
+}
+
+.\[\&_table\]\:border-separate table {
+  border-collapse: separate;
+}
+
+.\[\&_table\]\:border-spacing-4 table {
+  --tw-border-spacing-x: 1rem;
+  --tw-border-spacing-y: 1rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
+
+.\[\&_tbody\>tr\>td\]\:cursor-default tbody>tr>td {
+  cursor: default;
+}
+
+.\[\&_tbody\>tr\>td\]\:rounded-xl tbody>tr>td {
+  border-radius: 0.75rem;
+}
+
+.\[\&_tbody\>tr\>td\]\:border-2 tbody>tr>td {
+  border-width: 2px;
+}
+
+.\[\&_tbody\>tr\>td\]\:border-black\/5 tbody>tr>td {
+  border-color: rgb(0 0 0 / 0.05);
+}
+
+.\[\&_tbody\>tr\>td\]\:bg-gray-100 tbody>tr>td {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.\[\&_tbody\>tr\>td\]\:p-3 tbody>tr>td {
+  padding: 0.75rem;
+}
+
+.\[\&_tbody\>tr\>td\]\:text-left tbody>tr>td {
+  text-align: left;
+}
+
+.\[\&_tbody\>tr\>td\]\:text-black tbody>tr>td {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .\[\&_tbody\>tr\>td\]\:md\:p-5 tbody>tr>td {
+    padding: 1.25rem;
+  }
+}
+
+.\[\&_tbody\]\:text-sm tbody {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .\[\&_tbody\]\:md\:text-base tbody {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+.\[\&_thead\>tr\>th\]\:text-nowrap thead>tr>th {
+  text-wrap: nowrap;
+}
+
+.\[\&_thead\>tr\>th\]\:px-3 thead>tr>th {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.\[\&_thead\>tr\>th\]\:text-left thead>tr>th {
+  text-align: left;
+}
+
+.\[\&_thead\>tr\>th\]\:font-normal thead>tr>th {
+  font-weight: 400;
+}
+
+.\[\&_thead\>tr\>th\]\:text-gray-700 thead>tr>th {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.first\:\[\&_thead\>tr\>th\]\:rounded-l-xl thead>tr>th:first-child {
+  border-top-left-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
+}
+
+.last\:\[\&_thead\>tr\>th\]\:rounded-r-xl thead>tr>th:last-child {
+  border-top-right-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .\[\&_thead\>tr\>th\]\:md\:px-5 thead>tr>th {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .\[\&_thead\>tr\>th\]\:md\:font-bold thead>tr>th {
+    font-weight: 700;
+  }
+}
+
+.\[\&_thead\]\:text-xs thead {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.\[\&_thead\]\:uppercase thead {
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .\[\&_thead\]\:md\:text-sm thead {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 }
